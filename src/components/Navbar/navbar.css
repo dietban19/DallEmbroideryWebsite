@@ -1,0 +1,28 @@
+.logoContainer {
+  font-family: var(--ff-primary);
+  /* margin-bottom: 1rem; */
+  /* background-color: red; */
+}
+.logoContainer img {
+  width: 5.5rem;
+}
+.navbarWrapper {
+  margin-bottom: 1rem;
+  /* outline: 1px solid black; */
+}
+.companyName {
+  font-size: 2rem;
+}
+.navbarWrapper {
+  position: sticky;
+}
+
+.navbar {
+  position: st;
+  gap: 1.25rem;
+  text-transform: uppercase;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}

@@ -1,0 +1,100 @@
+.hero-content {
+  /* background-color: red; */
+}
+.hero {
+  margin-top: 4rem;
+}
+.heroText {
+  gap: 1rem;
+}
+.cta-button {
+}
+.link {
+  background-color: transparent;
+  border: none;
+  outline: 1px solid black;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(72, 72, 72);
+}
+.cta-button > .link:hover {
+}
+.heroTitle {
+  font-size: 2rem;
+}
+.heroDesc {
+  font-size: 1.5rem;
+}
+.orderContainer {
+  margin-top: 2rem;
+  padding: 4rem;
+  outline: 1px solid black;
+  width: 100%;
+  gap: 3rem;
+}
+.orderContainer span {
+  font-size: 1.25rem;
+}
+.orderContainer__content {
+  gap: 1rem;
+}
+.images {
+  /* background-color: green; */
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
+  gap: 10rem;
+}
+.images img {
+  max-width: 26rem;
+  /* width: 50%; */
+}
+
+.images:before {
+  content: "";
+  position: absolute;
+  top: 0rem;
+  left: 4rem;
+  width: 75%; /* Adjust the width and height as needed */
+  height: 80%;
+  background-color: var(--clr-primary-500);
+  z-index: -1; /* Position the square behind the image */
+}
+.images > :nth-child(2) {
+  margin-top: 15rem;
+}
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+@media (max-width: 1044px) {
+  .images {
+    gap: 2rem;
+  }
+  .images img {
+    max-width: 22rem;
+  }
+  .images:before {
+    height: 95%;
+    /* background-color: red; */
+  }
+}
+@media (max-width: 768px) {
+  .images {
+    gap: 0rem;
+  }
+  .images:before {
+    width: 95%;
+    top: auto;
+    left: auto;
+  }
+  .images img {
+    max-width: 35rem;
+  }
+}
