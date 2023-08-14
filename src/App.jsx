@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Logo from "./components/Navbar/Logo";
 import Hero from "./components/hero/hero";
 import Home from "./components/home/home";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/footer";
 import Order from "./components/Order/order";
 
 function App() {
