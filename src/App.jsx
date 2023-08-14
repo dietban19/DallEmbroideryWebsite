@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Logo from "./components/Navbar/Logo";
 import Hero from "./components/hero/hero";
-import Home from "./components/home/Home";
+import Home from "./components/home/home";
 import Footer from "./components/Footer/Footer";
 import Order from "./components/Order/order";
 
